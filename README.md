@@ -17,4 +17,10 @@ git add
 git commit -m "comentario"
 git push origin main
 
-##
+## Game
+
+para ejecutar el juego ejecuta
+```sh
+cd game
+python main.p
+```
