@@ -13,7 +13,7 @@ git remote add origin git@github.com:jrgsanta/curso-python-pip.git
 
 ## Paso 4
 Subir los dos archivos al repositorio de github usando las siguientes instrucciones en el terminal:
-git add
+git add .
 git commit -m "comentario"
 git push origin main
 
@@ -23,4 +23,23 @@ para ejecutar el juego ejecuta
 ```sh
 cd game
 python main.p
+```
+# Ambientes virtuales
+Se trata de diferentes entornos en la instalación de Python de forma que en cada uno de ellos podemos tener unas versiones diferentes de cada una de las librerias
+## Para activar un ambiente virtual debemos de ejecutar la siguiente instrucción dentro del directorio
+```sh
+python3 -m venv env 
+```
+(el último env es el nombre del entorno virtual
+```sh
+source env/bin/activate 
+pip3 install matpltlib==3.5.0
+```
+(activa el entorno virtual) una vez activado podemos instalar dependencias especificas que podemos ver con
+```sh
+pip3 freeze
+```
+Para desactivar el entorno simplemente escribimos
+```sh
+deactivate
 ```
