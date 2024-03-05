@@ -56,6 +56,7 @@ pip3 install -r requirements.txt
 ```sh
 git clone
 cd game
+python3 -m venv env-game 
 source env-game/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
