@@ -54,7 +54,7 @@ pip3 install -r requirements.txt
 
 # App Project
 ```sh
-git clone
+git clone urlProyectoEnGitHub
 cd game
 python3 -m venv env-game 
 source env-game/bin/activate
