@@ -43,3 +43,20 @@ Para desactivar el entorno simplemente escribimos
 ```sh
 deactivate
 ```
+# instalación de dependencias
+1. Generar las dependencias en un fichero
+2. Recrear las dependencias
+
+```sh
+pip3 freeze > requirements.txt 
+pip3 install -r requirements.txt
+```
+
+# App Project
+```sh
+git clone
+cd game
+source env-game/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
