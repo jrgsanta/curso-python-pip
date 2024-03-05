@@ -61,3 +61,5 @@ source env-game/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+# creado el proyecto de store con la libreria requests
+nuevo proyecto dentro del código.
